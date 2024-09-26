@@ -1,0 +1,45 @@
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.backgroundImg {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  background-image: url('/moves/background.png');
+  position: fixed; 
+  background-size: cover; 
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.center-area {
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  z-index: 1;
+  position: absolute;
+  background-image: url('/moves/area.png');
+  background-size: cover;
+  top: 50%;
+}
+
+.patuti{
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+  position: relative;
+  background-image: url('/moves/idle-1.png');
+  background-size: cover;
+  bottom: 100px;
+  left: 23%;
+}
